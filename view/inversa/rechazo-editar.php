@@ -9,10 +9,10 @@
 
     <div class="form-group" id="Ordencopia">
         <label>Orden de Compra</label>
-        <input type="text" name="OrdenCompra" value="<?php echo $alm->OrdenCompra; ?>" class="form-control" placeholder="Ingrese Orden de Compra" />
-        <div class="input-group-btn">
-                 <button type="button" class="btn btn-danger">+</button>
+        <div id="inputs">
+        <input id="dato1" type="text" name="OrdenCompra1" class="form-control"/>
         </div>
+        <input type="button" id="agrega" value="+">
     </div>
 
     <div class="form-group">
