@@ -1,6 +1,6 @@
 <h1 class="page-header">Registro
 </h1>
-<form id="formulario" action="?c=Inversa&a=GRechazo" method="post" enctype="multipart/form-data">
+<form id="datos" action="?c=Inversa&a=GRechazo" method="post" enctype="multipart/form-data">
 
     <div class="form-group">
         <label>Factura</label>

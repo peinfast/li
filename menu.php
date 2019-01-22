@@ -209,7 +209,12 @@ $(this).toggleClass("active");
 			<a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">Rechazos</a>
 			<ul class="collapse list-unstyled" id="homeSubmenu">
 				<li><a href="?c=Inversa&a=Rechazo">Registro</a></li>
-				<li><a href="?c=Inversa&a=NC">Nota de Credito</a></li>
+				<li><a href=# data-toggle="collapse" aria-expanded=false>Nota de Credito</a></li>
+				<ul>
+					<li><a href="#">Solicitar NC</a></li>
+					<li><a href="#">Autorizar NC</a></li>
+					<li><a href="#">Emision de NC</a></li>
+				</ul>
 				<li><a href="?c=Inversa&a=Salida">Salida</a></li>
 			</ul>
 		</li>

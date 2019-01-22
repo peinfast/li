@@ -11,13 +11,13 @@
 				<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
 				<script type="text/javascript">
 					$(document).ready(function(){
-						var cuentaInputs=$('#elementos').children().length;
+						var cuentaInputs=$('#Ordencopia').children().length;
 						$('#agrega').click(function(){
 								cuentaInputs++;
 								$('<br class="fila'+cuentaInputs+'" /><label class="fila'+cuentaInputs+'" for="dato'+cuentaInputs+'">Ingrese el Dato No.'+cuentaInputs+':<label><input type="text" name="dato'+cuentaInputs+'" class="fila'+cuentaInputs+'" id="dato'+cuentaInputs+'" />').appenTo('#inputs');
 								if (cuentaInputs==2) {
 									$('input type="button" id="eliminame value="-"/>').insertAfter('#agrega');
-								}	
+								}
 						});
 					}
 			    </script>
